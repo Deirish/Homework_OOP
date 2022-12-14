@@ -1,0 +1,20 @@
+2022-12-06 19:16:37.078133 Traceback (most recent call last):
+  File "C:\Users\Ирина\PycharmProjects\pythonProject\employees\app.py", line 14, in <module>
+    main()
+  File "C:\Users\Ирина\PycharmProjects\pythonProject\employees\app.py", line 8, in main
+    emp1 = Employee('Vasya', 500, 'vasiliy@gmail.com')
+  File "C:\Users\Ирина\PycharmProjects\pythonProject\employees\employee.py", line 9, in __init__
+    self.validate()
+  File "C:\Users\Ирина\PycharmProjects\pythonProject\employees\employee.py", line 19, in validate
+    raise EmailAlreadyExistsException('Email exists in file!')
+employees.empl_exceptions.EmailAlreadyExistsException: Email exists in file!
+2022-12-07 20:28:23.641339 Traceback (most recent call last):
+  File "C:\Users\Ирина\PycharmProjects\pythonProject\employees\app.py", line 14, in <module>
+    main()
+  File "C:\Users\Ирина\PycharmProjects\pythonProject\employees\app.py", line 8, in main
+    emp1 = Employee('Vasya', 500, 'vasiliy@gmail.com')
+  File "C:\Users\Ирина\PycharmProjects\pythonProject\employees\employee.py", line 9, in __init__
+    self.validate()
+  File "C:\Users\Ирина\PycharmProjects\pythonProject\employees\employee.py", line 19, in validate
+    raise EmailAlreadyExistsException('Email exists in file!')
+employees.empl_exceptions.EmailAlreadyExistsException: Email exists in file!
